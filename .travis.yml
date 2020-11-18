@@ -28,9 +28,8 @@ notifications:
     on_success: never # default: change
     on_failure: always # default: always
 deploy:
-  -
     on:
-      branch: release
+      branch: master
     provider: bintray
     skip_cleanup: true
     file: target/bin/bintray.json
