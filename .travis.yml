@@ -21,6 +21,12 @@ after_success:
   - chmod u+x target/bin/push-gh.sh
   - target/bin/push-gh.sh
 
+notifications:
+   email:
+    recipients:
+      - iftiali@gmail.com
+    on_success: never # default: change
+    on_failure: always # default: always
 deploy:
   -
     on:
@@ -28,5 +34,5 @@ deploy:
     provider: bintray
     skip_cleanup: true
     file: target/bin/bintray.json
-    user: nfrankel
-    key: $BINTRAY_API_KEY
+    user: iftiali
+    key: 8cdd3afac273171f487b0331358d60142fa8d7ee
