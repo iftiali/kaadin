@@ -27,7 +27,9 @@ fi
 git add *.html dokka images
 git commit -m "Deploy to GitHub Pages: ${SHA}"
 
-git remote add pages https://nfrankel:${GH_PAGE}@github.com/nfrankel/kaadin.git
+#git remote add pages https://nfrankel:${GH_PAGE}@github.com/nfrankel/kaadin.git
+git remote add pages https://iftiali:${GH_PAGE}@github.com/iftiali/kaadin.git
+
 
 # Now that we're all set up, we can push.
 git push pages HEAD --force
