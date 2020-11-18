@@ -8,8 +8,8 @@
     "vcs_url": "https://github.com/iftiali",
     "licenses": ["Apache-2.0"],
     "labels": ["vaadin", "kotlin"],
-    "public_download_numbers": false,
-    "public_stats": false
+    "public_download_numbers": true,
+    "public_stats": true
   },
   "version": {
     "name": "${project.version}",
@@ -18,8 +18,8 @@
   },
   "files":
   [
-    {"includePattern": "kaadin-core/target/(.*\.jar)", "uploadPattern": "ch/frankel/kaadin/kaadin-core/${project.version}/$1"},
-    {"includePattern": "kaadin-core/pom.xml", "uploadPattern": "ch/frankel/kaadin/kaadin-core/${project.version}/kaadin-core-${project.version}.pom"}
+    {"includePattern": "kaadin-core/target/(.*\.jar)", "uploadPattern": "ch/iftiali/kaadin/kaadin-core/${project.version}/$1"},
+    {"includePattern": "kaadin-core/pom.xml", "uploadPattern": "ch/iftiali/kaadin/kaadin-core/${project.version}/kaadin-core-${project.version}.pom"}
   ],
   "publish": true
 }
