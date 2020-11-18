@@ -9,9 +9,9 @@ cache:
   - $HOME/.m2
 
 #before_script:
-# - git config user.name "$COMMIT_AUTHOR_NAME"
-# - git config user.email "$COMMIT_AUTHOR_EMAIL"
-# - export COMMIT_MESSAGE=`git log -1 --oneline`
+ - git config user.name "$COMMIT_AUTHOR_NAME"
+ - git config user.email "$COMMIT_AUTHOR_EMAIL"
+ - export COMMIT_MESSAGE=`git log -1 --oneline`
 
 script:
   - ./mvnw clean install
@@ -34,4 +34,4 @@ deploy:
     skip_cleanup: true
     file: target/bin/bintray.json
     user: iftiali
-    key: 8cdd3afac273171f487b0331358d60142fa8d7ee
+    key: $BINTRAY_API_KEY
