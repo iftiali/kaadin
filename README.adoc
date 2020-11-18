@@ -8,9 +8,9 @@ Nicolas Fränkel <nicolas@frankel.ch>
 :icons: font
 :experimental:
 
-image:https://travis-ci.org/nfrankel/kaadin.svg?branch=master["Build Status", link="https://travis-ci.org/nfrankel/kaadin"]
+image:https://travis-ci.org/nfrankel/kaadin.svg?branch=master["Build Status", link="https://travis-ci.org/github/iftiali/kaadin"]
 image:https://codecov.io/gh/nfrankel/kaadin/branch/master/graph/badge.svg["Code coverage", link="https://codecov.io/gh/nfrankel/kaadin"]
-image:https://api.bintray.com/packages/nfrankel/maven/kaadin/images/download.svg[link="https://bintray.com/nfrankel/maven/kaadin/_latestVersion"]
+image:https://api.bintray.com/packages/nfrankel/maven/kaadin/images/download.svg[link="https://bintray.com/iftiali/maven/kaadin"]
 
 Kaadin is a library to create link:https://vaadin.com/[Vaadin] Graphical User Interface using a link:https://kotlinlang.org/[Kotlin^] Domain-Specific Language .
 
